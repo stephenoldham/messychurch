@@ -97,7 +97,16 @@
 			</tr>
 			<tr>
 				<th class="p-3 pt-1 sm:p-4 border-b" colspan="5">
-					<input class="appearance-none border rounded-full w-full py-2 px-3 text-grey-darker" type="text" placeholder="Search" v-model="query">
+					<div class="field relative">
+						<span 
+						class="inline-block absolute pin-r p-3 text-grey hover:text-blue cursor-pointer" 
+						style="margin-top: -2px" 
+						v-if="query.length > 0" 
+						@click="query = ''">
+							<i class="icon-close-solid"></i>
+						</span>
+						<input class="appearance-none border rounded-full w-full py-2 px-3 text-grey-darker" type="text" placeholder="Search" v-model="query">
+					</div>
 				</th>
 			</tr>
 			<tr>
