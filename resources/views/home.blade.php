@@ -103,7 +103,7 @@
 						style="margin-top: -2px" 
 						v-if="query.length > 0" 
 						@click="query = ''">
-							<i class="icon-close-solid"></i>
+							<i class="icon-close-solid text-base"></i>
 						</span>
 						<input class="appearance-none border rounded-full w-full py-2 px-3 text-grey-darker" type="text" placeholder="Search" v-model="query">
 					</div>
