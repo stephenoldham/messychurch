@@ -103,9 +103,9 @@
 			<tr>
 				<th class="p-2 sm:w-24">No.</th>
 				<th class="p-2">Description</th>
-				<th class="w-16 p-2">Age</th>
+				<th class="w-24 p-2">Age</th>
 				<th class="p-2">Gender</th>
-				<th class="w-4 sm:w-24"></th>
+				<th class="w-4 sm:w-12"></th>
 			</tr>
 		</thead>
 		<tbody>
