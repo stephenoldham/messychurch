@@ -61,14 +61,14 @@
 
 
 		<div class="block mb-4">
-			<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">By gender</span>
-			<span class="inline-block bg-blue rounded-full px-3 py-1 text-sm text-white mr-2">
+			<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-1 sm:mr-2">By gender</span>
+			<span class="inline-block bg-blue rounded-full px-3 py-1 text-sm text-white mr-1 sm:mr-2">
 			    Boy @{{ countBoys }}
 			</span>
-			<span class="inline-block bg-pink rounded-full px-3 py-1 text-sm text-white mr-2">
+			<span class="inline-block bg-pink rounded-full px-3 py-1 text-sm text-white mr-1 sm:mr-2">
 			    Girls @{{ countGirls }}
 			</span>
-			<span class="inline-block bg-orange rounded-full px-3 py-1 text-sm text-white mr-2">
+			<span class="inline-block bg-orange rounded-full px-3 py-1 text-sm text-white mr-1 sm:mr-2">
 			    Unisex @{{ countUnisex }}
 			</span>
 		</div>

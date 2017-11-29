@@ -51,7 +51,7 @@ const app = new Vue({
 
     computed: {
 		visibleRows: function () {
-			let term  = this.query;
+			let term  = this.query.toLowerCase();
 
 			return this.rows.filter(function(row) {
 				var contains = _.filter(row, function(value) {
