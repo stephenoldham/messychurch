@@ -19,6 +19,12 @@
 
         @stack('scripts')
         
+        <script>
+            // Prevent pinch zoom
+            document.addEventListener('gesturestart', function (e) {
+                e.preventDefault();
+            });
+        </script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
